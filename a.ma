@@ -86,7 +86,7 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -n "pSphere1";
 	rename -uid "0CEB6BE5-4946-954A-40FC-5D8057CEEFE6";
-createNode mesh -n "pSphereShape1" -p "pSphere1";
+createNode mesh -n "pSphereShape2" -p "pSphere1";
 	rename -uid "EE3F462D-40AD-5331-FA5E-019F9ED36CDF";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
